@@ -1,0 +1,30 @@
+body {
+    background-color: #ffffff;
+    }
+.signup-container {
+    max-width: 400px;
+    margin: auto;
+    padding:30px;
+    background-color: #ffffff;
+    animation: slideIn 0.5s ease;
+}
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.signup{
+    background-color: #0e7892;
+    color:#f8f9fa;
+}
+.password-info{
+    font-size:10px;
+}
+.head{
+    color:#0e7892
+}

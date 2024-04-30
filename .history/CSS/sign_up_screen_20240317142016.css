@@ -1,0 +1,25 @@
+body {
+    background-color: #050d33;
+  }
+  .signup-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: slideIn 0.5s ease;
+  }
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .head{
+    color:d
+  }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Helper</title>
+    <!--Bootstrap CDN Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Custom CSS Link-->
+    <link rel="stylesheet" href="/CSS/sign_up_screen.css" >
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h4 class="mb-3 fw-bolder text-center head">Happy Helper</h4>
+        <div class="signup-container">
+            <h4 class="mb-3 fw-bolder text-center head">Create Your Account</h4>
+            <form>
+
+            <div class="mb-3 form-floating">
+                <label for="username">Username</label>
+                <input type="text" class="form-control" id="username" placeholder="Username" required>
+            </div>
+
+            <div class="mb-3 form-floating">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Password" required>
+                <span class="password-info mt-2">Use 8 or more characters with a mix of letters, numbers & symbols.</span>
+            </div>
+            <button type="submit" class="btn w-100 mb-3 signup">Continue</button>
+            <div class="mb-2 fw-normal text-muted text-center">
+                Already have an account? 
+                <a href="login_screen.html" class="text-primay text-decoration-none">Sign in here</a>
+            </div>
+            <div class="text-center text-muted text-uppercase mb-2">
+                or
+            </div>
+            <a href="https://accounts.google.com/" class="btn btn-dark login-with w-100 mb-4"><img width="25" height="25" src="https://img.icons8.com/color/48/google-logo.png" alt="google-logo" class="img-fluid me-2"/> Continue with Google</a>
+            </form>
+        </div>
+        </div>
+        <!-- Bootstrap JS  -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+6DE5Uj0W+eTp6kLc2G5fKSA0VI3E6tFfYJGzpw" crossorigin="anonymous"></script>
+    </body>
+    </html>
+</body>
+</html>
